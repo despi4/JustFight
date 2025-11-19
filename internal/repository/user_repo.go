@@ -10,3 +10,7 @@ type UserRepository interface {
 	Update(user *models.User) error
 	Delete(id uint) error
 }
+
+func (u *models.User) Create(user *models.User) error {
+	return nil
+}

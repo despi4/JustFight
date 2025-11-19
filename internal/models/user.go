@@ -10,3 +10,5 @@ type User struct {
 	Losses   int     `json:"losses" db:"losses"`     // Количество поражений
 	Matches  []Match `json:"matches" db:"-"`         // Список матчей (связь с матчами)
 }
+
+
