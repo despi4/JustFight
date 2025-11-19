@@ -7,5 +7,4 @@ type GameStats struct {
 	PlayerID         uint `json:"player_id" db:"player_id"`                   // ID игрока
 	DamageDealt      int  `json:"damage_dealt" db:"damage_dealt"`             // Урон, нанесённый игроком
 	DamageReceived   int  `json:"damage_received" db:"damage_received"`       // Урон, полученный игроком
-	SpecialMovesUsed int  `json:"special_moves_used" db:"special_moves_used"` // Количество использованных спецприёмов
 }
